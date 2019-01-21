@@ -84,6 +84,7 @@ public class Book {
         if (o == null || getClass() != o.getClass()) return false;
         Book book = (Book) o;
         return Objects.equals(id, book.id);
+
     }
 
     @Override
